@@ -1,4 +1,8 @@
 /* RESET */
+img {
+    width: 100%;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ body {
 }
 .card-container img {
     width: 100%;
-    padding: 0.2rem;
+    padding: 0.1rem;
     border-radius: 20px;
 }
 
@@ -153,7 +157,7 @@ main {
 /* Playstation 5 Section */
 /* Heading */
 .ms_container-heading-ps5 {
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 2rem 0;
     text-align: center;
 }
 
@@ -161,32 +165,40 @@ main {
     font-size: 1rem;
     color: #3c8ed7;
     font-weight: 600;
+    line-height: 0.1rem
 }
 
 .ms_container-heading-ps5 h2 {
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .ms_container-heading-ps5 h3,
-.ms_container-cols-ps5 h3 {
-    font-size: 1.5rem;
+.ms_container-col-ps5 h3 {
+    font-size: 1.2rem;
     color: #737373;
 }
 
 /* colums ps5 */
-.ms_container-cols-ps5 h3 {
+h1 {
+    margin-bottom: 1.5rem;
+}
+.ms_container-col-ps5 h3 {
     padding-bottom: 2rem;
 }
 
-.ms_container-cols-ps5 img{
+.ms_container-col-ps5 img{
     width: 10%;
     object-fit: contain;
 }
+
 .ms_btn.blue {
     background-color: #2d64e6;
 }
 
+.ms_img-container {
+    padding-top: 1rem;
+}
 
 
 /* END MAIN */
@@ -201,7 +213,17 @@ main {
 
 /*-------------------- MEDIA QUERY --------------------*/
 
-/* Large */
+/* MEDIUM */
+
+@media screen and (min-width:768px) {
+    
+/* Playstation 5 Section */
+.ms_container-col-ps5 {
+    width: 70%;
+}
+}
+
+/* LARGE */
 
 @media screen and (min-width:992px) {
     
@@ -211,7 +233,7 @@ main {
 }
 }
 
-/* Extra Large */
+/* EXTRA LARGE */
 
 @media screen and (min-width:1200px) {
     
@@ -221,7 +243,7 @@ main {
 }
 }
 
-/* Extra Extra Large */
+/* EXTRA EXTRA LARGE */
 
 @media screen and (min-width:1400px) {
     
