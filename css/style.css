@@ -149,10 +149,27 @@ main {
     background-color: #cd3d10;
 }
 
-/* Returnal-Ratchet Cards Section */
+/* Playstation 5 Section */
+.ms_container-ps5 {
+    padding-top: 5rem;
+    text-align: center;
+}
 
+.ms_container-ps5 h4 {
+    font-size: 1rem;
+    color: #3c8ed7;
+    font-weight: 600;
+}
 
+.ms_container-ps5 h2 {
+    font-size: 3rem;
+}
 
+.ms_container-ps5 h3 {
+    font-size: 1.5rem;
+    color: #737373;
+    padding-top: 2rem;
+}
 
 
 /* END MAIN */
