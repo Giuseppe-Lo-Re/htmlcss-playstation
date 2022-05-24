@@ -22,7 +22,7 @@ body {
     padding-bottom: 1.5rem;
 }
 
-.card-container img {
+.ms_card-container img {
     width: 100%;
     padding: 0.1rem;
     border-radius: 20px;
@@ -47,8 +47,9 @@ section.ms_cards {
     text-decoration: none;
 }
 
-.card-container.active {
+.ms_card-container.active {
     border: 2px solid #0072ce;
+    border-radius:20px;
 }
 
 .ms_products-container.active.black {
@@ -63,6 +64,8 @@ section.ms_cards {
 header {
     font-family: Helvetica, arial, sans-serif;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -85,7 +88,8 @@ header a {
 .ms_header-top {
     height: 30px;
     background-color: black;
-    text-align: right;
+    display: flex;
+    justify-content: right;
 }
 
 .ms_header-top img {
@@ -119,7 +123,7 @@ header a {
 }
 
 .ms_header-bottom-user-menu img {
-    width: 25px;
+    width: 30px;
 }
 
 .ms_header-bottom-bars i {
@@ -153,7 +157,7 @@ main {
 
 .ms_banner.returnal h2{
     font-size: 2.5rem;
-    padding-bottom: 1.5rem;
+    padding: 10rem 0 1.5rem 0;
 }
 
 .ms_banner .ms_btn.red {
@@ -256,21 +260,9 @@ h1 {
 .ms_banner p {
     padding-right: 45rem;
 }
-}
-
-/* EXTRA EXTRA LARGE */
-
-@media screen and (min-width:1400px) {
     
 /* Returnal Section */
 .ms_banner-returnal-logo img {
-    width: 28%;
-    padding-bottom: 1.5rem;
+    width: 25%;
 }
-
-.ms_banner p {
-    padding-right: 59rem;
-}
-
-
 }
