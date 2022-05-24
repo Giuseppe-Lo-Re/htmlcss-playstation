@@ -44,6 +44,7 @@ section.ms_cards {
     display: inline;
     padding: 0.7rem 1rem;
     border-radius:20px;
+    text-decoration: none;
 }
 
 /* END COMMON */
@@ -150,26 +151,38 @@ main {
 }
 
 /* Playstation 5 Section */
-.ms_container-ps5 {
-    padding-top: 5rem;
+/* Heading */
+.ms_container-heading-ps5 {
+    padding: 5rem 0 5rem 0;
     text-align: center;
 }
 
-.ms_container-ps5 h4 {
+.ms_container-heading-ps5 h4 {
     font-size: 1rem;
     color: #3c8ed7;
     font-weight: 600;
 }
 
-.ms_container-ps5 h2 {
+.ms_container-heading-ps5 h2 {
     font-size: 3rem;
+    padding-bottom: 2rem;
 }
 
-.ms_container-ps5 h3 {
+.ms_container-heading-ps5 h3,
+.ms_container-cols-ps5 h3 {
     font-size: 1.5rem;
     color: #737373;
-    padding-top: 2rem;
 }
+
+/* colums ps5 */
+.ms_container-cols-ps5 h3 {
+    padding-bottom: 2rem;
+}
+
+.ms_btn.blue {
+    background-color: #2d64e6;
+}
+
 
 
 /* END MAIN */
@@ -210,9 +223,9 @@ main {
     
 /* Returnal Section */
 .ms_banner-returnal-logo img {
-        width: 28%;
-        padding-bottom: 1.5rem;
-    }
+    width: 28%;
+    padding-bottom: 1.5rem;
+}
 
 .ms_banner p {
     padding-right: 59rem;
