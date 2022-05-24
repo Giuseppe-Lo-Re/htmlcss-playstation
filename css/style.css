@@ -4,15 +4,26 @@ ul {
     padding: 0;
 }
 
-
 /* COMMON */
 body {
     font-family: Arial, sans-serif;
 }
 
+.ms_banner {
+    color: white;
+    padding: 2rem;
+    position: relative;
 
+}
+.ms_banner a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ms_banner p {
+    padding-bottom: 2rem;
+}
 /* Utilities */
-
 .ms_btn {
     color: white;
     display: inline;
@@ -20,15 +31,14 @@ body {
     border-radius:20px;
 }
 
-
 /* END COMMON */
-
 
 /* HEADER */
 header {
     font-family: Helvetica, arial, sans-serif;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 header ul {
@@ -89,13 +99,38 @@ header a {
 .ms_header-bottom-bars i {
     color: #848484;
 }
-
-
-
 /* END HEADER */
 
-
 /* MAIN */
+/* Banner */
+.ms_banner.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-color: lightblue; */
+}
+
+.ms_banner-returnal-logo {
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+}
+
+.ms_banner-returnal-logo img {
+    width: 50%;
+}
+
+.ms_banner.returnal h2{
+    font-size: 2.5rem;
+    padding: 30rem 0 1.5rem 0;
+}
+
+.ms_banner .ms_btn.red {
+    background-color: #cd3d10;
+}
+
+
 
 
 
@@ -111,10 +146,39 @@ header a {
 
 /*-------------------- MEDIA QUERY --------------------*/
 
+/* Large */
+
 @media screen and (min-width:992px) {
     
-    /* Header Bottom */
+/* Header Bottom */
 .ms_header-bottom {
     padding: 0;
 }
+}
+
+/* Large */
+
+@media screen and (min-width:1200px) {
+    
+/* Header Bottom */
+.ms_banner p {
+    padding-right: 45rem;
+}
+}
+
+/* Extra Extra Large */
+
+@media screen and (min-width:1400px) {
+    
+/* Returnal Section */
+.ms_banner-returnal-logo img {
+        width: 28%;
+        padding-bottom: 1.5rem;
+    }
+
+.ms_banner p {
+    padding-right: 59rem;
+}
+
+
 }
