@@ -179,6 +179,10 @@ main {
     padding-bottom: 2rem;
 }
 
+.ms_container-cols-ps5 img{
+    width: 10%;
+    object-fit: contain;
+}
 .ms_btn.blue {
     background-color: #2d64e6;
 }
