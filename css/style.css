@@ -1,0 +1,120 @@
+/* RESET */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* COMMON */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Utilities */
+
+.ms_btn {
+    color: white;
+    display: inline;
+    padding: 0.7rem 1rem;
+    border-radius:20px;
+}
+
+
+/* END COMMON */
+
+
+/* HEADER */
+header {
+    font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    list-style: none; 
+}
+
+header li {
+    padding: 0 0.7rem;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Top */
+.ms_header-top {
+    height: 30px;
+    background-color: black;
+    text-align: right;
+}
+
+.ms_header-top img {
+    height:30px;
+    padding: 0.5rem;   
+}
+
+/* Header Bottom */
+.ms_header-bottom {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.ms_header-bottom-left,
+.ms_header-bottom-right {
+    line-height: 70px;
+}
+
+.ms_header-bottom-nav img,
+.ms_header-bottom-user-menu
+ a img {
+    width: 10px;
+    padding-left: 0.1rem;
+}
+
+.ms_header-bottom-user-menu .ms_btn {
+    background-color: #363636;
+}
+
+.ms_header-bottom-user-menu img {
+    width: 25px;
+}
+
+.ms_header-bottom-bars i {
+    color: #848484;
+}
+
+
+
+/* END HEADER */
+
+
+/* MAIN */
+
+
+
+/* END MAIN */
+
+
+/* FOOTER */
+
+
+
+/* END FOOTER */
+
+
+/*-------------------- MEDIA QUERY --------------------*/
+
+@media screen and (min-width:992px) {
+    
+    /* Header Bottom */
+.ms_header-bottom {
+    padding: 0;
+}
+}
