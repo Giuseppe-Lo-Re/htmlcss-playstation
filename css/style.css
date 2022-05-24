@@ -9,21 +9,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.ms_banner {
-    color: white;
-    padding: 2rem;
-    position: relative;
-
-}
 .ms_banner a {
     text-decoration: none;
     color: inherit;
 }
 
 .ms_banner p {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
+
+.card-container.active {
+    border: 2px solid #0072ce;
+    border-radius: 20px;
+}
+.card-container img {
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 20px;
+}
+
+section.ms_cards {
+    padding: 2rem 0;
+}
+
 /* Utilities */
+.ms_banner {
+    color: white;
+    padding: 2rem;
+    position: relative;
+}
+
 .ms_btn {
     color: white;
     display: inline;
@@ -102,18 +117,22 @@ header a {
 /* END HEADER */
 
 /* MAIN */
-/* Banner */
+main {
+    padding-top: 100px;
+}
+
+/* Returnal Banner Section*/
 .ms_banner.returnal {
     background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    /* background-color: lightblue; */
+    max-width: 100%;
+    
 }
 
 .ms_banner-returnal-logo {
     position: absolute;
-    bottom: 250px;
+    bottom: 270px;
     left: 50px;
 }
 
@@ -123,12 +142,14 @@ header a {
 
 .ms_banner.returnal h2{
     font-size: 2.5rem;
-    padding: 30rem 0 1.5rem 0;
+    padding-bottom: 1.5rem;
 }
 
 .ms_banner .ms_btn.red {
     background-color: #cd3d10;
 }
+
+/* Returnal-Ratchet Cards Section */
 
 
 
@@ -156,7 +177,7 @@ header a {
 }
 }
 
-/* Large */
+/* Extra Large */
 
 @media screen and (min-width:1200px) {
     
