@@ -22,10 +22,6 @@ body {
     padding-bottom: 1.5rem;
 }
 
-.card-container.active {
-    border: 2px solid #0072ce;
-    border-radius: 20px;
-}
 .card-container img {
     width: 100%;
     padding: 0.1rem;
@@ -49,6 +45,16 @@ section.ms_cards {
     padding: 0.7rem 1rem;
     border-radius:20px;
     text-decoration: none;
+}
+
+.card-container.active {
+    border: 2px solid #0072ce;
+}
+
+.ms_products-container.active.black {
+    border-bottom: 2px solid #0072ce;
+    color: black ;
+    padding-bottom: 3.5rem;
 }
 
 /* END COMMON */
@@ -179,7 +185,7 @@ main {
     color: #737373;
 }
 
-/* colums ps5 */
+/* Columns PS5 */
 h1 {
     margin-bottom: 1.5rem;
 }
@@ -200,6 +206,15 @@ h1 {
     padding-top: 1rem;
 }
 
+/* Related Products */
+.ms_products-container {
+    text-align: center;  
+    color: #8d8d8d; 
+}
+
+.ms_products-container img{
+    padding-bottom: 0.5rem;
+}
 
 /* END MAIN */
 
