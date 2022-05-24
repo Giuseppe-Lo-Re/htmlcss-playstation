@@ -142,7 +142,6 @@ main {
     background-size: cover;
     background-position: bottom;
     max-width: 100%;
-    
 }
 
 .ms_banner-returnal-logo {
@@ -155,7 +154,7 @@ main {
     width: 50%;
 }
 
-.ms_banner.returnal h2{
+.ms_banner.returnal h2 {
     font-size: 2.5rem;
     padding: 10rem 0 1.5rem 0;
 }
@@ -216,7 +215,7 @@ h1 {
     color: #8d8d8d; 
 }
 
-.ms_products-container img{
+.ms_products-container img {
     padding-bottom: 0.5rem;
 }
 
