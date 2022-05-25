@@ -20,6 +20,11 @@ body {
     color: #737373;
 }
 
+.title-image img {
+    width: 250px;
+}
+
+
 /* Banner */
 .ms_banner {
     color: white;
@@ -321,10 +326,6 @@ h1 {
     padding: 3rem 1rem;
 }
 
-.title-image img {
-    width: 300px;
-}
-
 #playstation-plus h3,
 #playstation-now h3 {
     font-size: 0.9rem;
@@ -410,7 +411,8 @@ h1 {
     padding-top: 0;
 }
 
-#playstation-plus {
+#playstation-plus,
+#playstation-now {
     padding: 0 1rem;
 }
 }
