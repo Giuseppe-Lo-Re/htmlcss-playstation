@@ -355,6 +355,16 @@ h1 {
     background-color: white;
     color: black;
 }
+
+/* Social Media Section*/
+#social-media {
+    padding: 3.5rem 0;
+}
+
+#social-media h3 {
+    padding-bottom: 2rem;
+}
+
 /* END MAIN */
 
 
