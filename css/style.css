@@ -73,15 +73,17 @@ section.ms_cards {
     padding: 2rem 0;
 }
 
-/* Utilities */
+/* Button */
 .ms_btn {
     color: white;
     display: inline;
     padding: 0.7rem 1rem;
     border-radius:20px;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
+/* Utilities */
 .ms_card-container.selected {
     border: 2px solid #0072ce;
     border-radius:20px;
@@ -178,7 +180,9 @@ main {
 }
 
 /* Playstation 5 Section */
-#playstation-5 {
+#playstation-5,
+#playstation-store,
+#playstation-now {
     padding: 2rem 0;
 }
 /* Heading */
@@ -226,7 +230,7 @@ h1 {
     opacity: calc(0.5);
 }
 
-.ms_products-container img {
+#playstation-5 .ms_products-container img {
     padding-bottom: 0.5rem;
     width: 100%;
 }
@@ -307,26 +311,22 @@ h1 {
     padding: 1rem 0 2rem 0;
 }
 
-.ms_products-container .ms_btn.blue,
-.ms_container .ms_btn.gray {
-    font-size: 0.8rem;
-}
-
 /* Playstation Plus Section */
 #playstation-plus {
     background-color: #bfbcbb;
-    padding: 3rem 1rem;
+    padding: 3rem;
 }
 #playstation-plus
 .ms-container.play {
     padding: 3rem 1rem;
 }
 
-#playstation-plus .title-image img {
+.title-image img {
     width: 300px;
 }
 
-#playstation-plus h3 {
+#playstation-plus h3,
+#playstation-now h3 {
     font-size: 0.9rem;
     padding: 1.5rem 2rem 1.5rem 0;
 }
@@ -336,6 +336,24 @@ h1 {
     color: #3469e5;
 }
 
+/* Playstation Store Section */
+#playstation-store h3 {
+    padding-bottom: 2rem;
+}
+
+
+/* Playstation Now Section */
+#playstation-now {
+    background-color: #151c3b;
+    color: white;
+    padding: 3rem 0;
+
+}
+
+#playstation-now .ms_btn {
+    background-color: white;
+    color: black;
+}
 /* END MAIN */
 
 
@@ -365,7 +383,7 @@ h1 {
 }
 
 /* Related Products */
-.ms_products-container img { 
+#playstation-5 .ms_products-container img { 
     width: 50%;
 }
 
