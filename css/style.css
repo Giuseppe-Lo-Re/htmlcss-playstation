@@ -372,9 +372,45 @@ h1 {
 footer {
     background-color: #04449c;
     color: white;
+    padding: 4rem 0;
+    font-size: 0.8rem;
 }
 
+footer .ms_logo-container {
+    padding: 2rem 0;
+}
 
+footer .ms_logo-top-container img {
+    width: 70px;
+}
+
+footer .ms_country-region {
+    padding: 2rem 0;
+}
+
+footer .ms_country-region img {
+    width: 20px;
+    padding-right: 0.3rem;
+    vertical-align: text-bottom;
+}
+
+footer .link-container {
+    padding-top: 2rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+}
+
+footer .ms_logo-bottom-container {
+    width: 100px;
+    padding: 3rem 0 0.5rem 0;
+}
+
+footer .ms_disclaimer a {
+    color: inherit;
+}
 /* END FOOTER */
 
 
@@ -476,7 +512,5 @@ footer {
 #playstation-plus img {
     width: 85%;
 }
-
-
 }
 
