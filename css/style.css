@@ -87,7 +87,7 @@ section.ms_cards {
     border-radius:20px;
 }
 
-.ms_products-container.selected.black {
+#playstation-5 .ms_products-container.selected.black {
     border-bottom: 2px solid #0072ce;
     color: black ;
     padding-bottom: 3.5rem;
@@ -178,6 +178,9 @@ main {
 }
 
 /* Playstation 5 Section */
+#playstation-5 {
+    padding: 2rem 0;
+}
 /* Heading */
 .ms_container.heading.ps5 {
     padding: 5rem 0 2rem 0;
@@ -217,7 +220,7 @@ h1 {
 }
 
 /* Related Products */
-#playstation_5 .ms_products-container {
+#playstation-5 .ms_products-container {
     text-align: center; 
     width: 100%;
     opacity: calc(0.5);
@@ -235,6 +238,10 @@ h1 {
 /* "It Takes Two" Banner Section*/
 .ms_banner.it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms_banner.it-takes-two h2 {
+    padding-top: 15rem;
 }
 
 .ms_banner-logo.it-takes-two {
@@ -267,7 +274,7 @@ h1 {
 
 /* Playstation 4 Section */
 #playstation-4 {
-    padding: 3rem 0;
+    padding: 5rem 0 7rem 0;
 }
 .ms_container.heading.ps4 {
     text-align: center;
@@ -300,8 +307,33 @@ h1 {
     padding: 1rem 0 2rem 0;
 }
 
-.ms_products-container .ms_btn.blue {
+.ms_products-container .ms_btn.blue,
+.ms_container .ms_btn.gray {
     font-size: 0.8rem;
+}
+
+/* Playstation Plus Section */
+#playstation-plus {
+    background-color: #bfbcbb;
+    padding: 3rem 1rem;
+}
+#playstation-plus
+.ms-container.play {
+    padding: 3rem 1rem;
+}
+
+#playstation-plus .title-image img {
+    width: 300px;
+}
+
+#playstation-plus h3 {
+    font-size: 0.9rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+}
+
+.ms_btn.gray {
+    background-color: #d9dadc;
+    color: #3469e5;
 }
 
 /* END MAIN */
@@ -341,6 +373,11 @@ h1 {
     display: block;
 }
 
+/* "It Takes Two" Banner Section */
+.ms_banner.it-takes-two h2 {
+    padding-top: 20rem;
+}
+
 /* Playstation 4 Section */
 #playstation-4 .ms_products-container img {
     width: 95%;
@@ -349,8 +386,16 @@ h1 {
 .ms_products-container .product-info.p-compensation {
     margin-bottom: 1.9rem;
 }
+
+/* Playstation Plus Section */
+.ms_ps-container {
+    padding-top: 0;
 }
 
+#playstation-plus {
+    padding: 0 1rem;
+}
+}
 
 /* LARGE */
 @media screen and (min-width:992px) {
@@ -381,13 +426,24 @@ h1 {
 
 /* "It Takes Two" Banner Section*/
 .ms_banner.it-takes-two h2 {
-    /* font-size: 2.5rem; */
+    padding-top: 15rem;
     padding-right: 46rem;
 }
 
+/* "It Takes Two" Banner Section */
+.ms_banner.it-takes-two h2 {
+    
+}
 /* Playstation 4 Section */
 .ms_products-container .product-info.p-compensation {
     margin-bottom: 0;
 }
+
+/* Playstation Plus Section */
+#playstation-plus img {
+    width: 85%;
+}
+
+
 }
 
