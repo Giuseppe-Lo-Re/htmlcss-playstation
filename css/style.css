@@ -359,7 +359,10 @@ h1 {
 
 
 /* FOOTER */
-
+footer {
+    background-color: #04449c;
+    color: white;
+}
 
 
 /* END FOOTER */
