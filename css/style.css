@@ -13,6 +13,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.ms_container.heading h3,
+.ms_container.col-ps5 h3,
+.ms_products-container .product-info {
+    font-size: 1.2rem;
+    color: #737373;
+}
+
 /* Banner */
 .ms_banner {
     color: white;
@@ -172,34 +179,28 @@ main {
 
 /* Playstation 5 Section */
 /* Heading */
-.ms_container-heading-ps5 {
+.ms_container.heading.ps5 {
     padding: 5rem 0 2rem 0;
     text-align: center;
 }
 
-.ms_container-heading-ps5 h4 {
+.ms_container.heading.ps5 h4 {
     font-size: 1rem;
     color: #3c8ed7;
     font-weight: 600;
     line-height: 0.1rem
 }
 
-.ms_container-heading-ps5 h2 {
-    font-size: 3rem;
+.ms_container.heading h2 {
+    font-size: 2.2rem;
     padding-bottom: 1rem;
-}
-
-.ms_container-heading-ps5 h3,
-.ms_container-col-ps5 h3 {
-    font-size: 1.2rem;
-    color: #737373;
 }
 
 /* Columns PS5 */
 h1 {
     margin-bottom: 1.5rem;
 }
-.ms_container-col-ps5 h3 {
+.ms_container.col.ps5 h3 {
     padding-bottom: 2rem;
 }
 
@@ -216,9 +217,8 @@ h1 {
 }
 
 /* Related Products */
-.ms_products-container {
-    text-align: center;  
-    color: #8d8d8d; 
+#playstation_5 .ms_products-container {
+    text-align: center; 
     width: 100%;
     opacity: calc(0.5);
 }
@@ -265,6 +265,45 @@ h1 {
     padding-top: 0.5rem;
 }
 
+/* Playstation 4 Section */
+#playstation-4 {
+    padding: 3rem 0;
+}
+.ms_container.heading.ps4 {
+    text-align: center;
+}
+
+.ms_container.heading.ps4 .trademark {
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: super;
+}
+
+.ms_products-container {
+    padding-top: 0.5rem;
+}
+
+.ms_products-container .product-info.p-compensation {
+    margin-bottom:0;
+}
+
+#playstation-4 .ms_products-container h3 {
+    font-size: 2rem ;
+}
+
+#playstation-4 .ms_products-container img {
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.ms_products-container .product-info {
+    padding: 1rem 0 2rem 0;
+}
+
+.ms_products-container .ms_btn.blue {
+    font-size: 0.8rem;
+}
+
 /* END MAIN */
 
 
@@ -289,7 +328,7 @@ h1 {
 @media screen and (min-width:768px) {
     
 /* Playstation 5 Section */
-.ms_container-col-ps5 {
+.ms_container.col.ps5 {
     width: 73%;
 }
 
@@ -301,7 +340,17 @@ h1 {
 .ms_products-container .ms_product-name {
     display: block;
 }
+
+/* Playstation 4 Section */
+#playstation-4 .ms_products-container img {
+    width: 95%;
 }
+
+.ms_products-container .product-info.p-compensation {
+    margin-bottom: 1.9rem;
+}
+}
+
 
 /* LARGE */
 @media screen and (min-width:992px) {
@@ -312,7 +361,7 @@ h1 {
 }
 
 /* Playstation 5 Section */
-.ms_container-col-ps5 {
+.ms_container.col.ps5 {
     width: 80%;
 }
 }
@@ -334,6 +383,11 @@ h1 {
 .ms_banner.it-takes-two h2 {
     /* font-size: 2.5rem; */
     padding-right: 46rem;
+}
+
+/* Playstation 4 Section */
+.ms_products-container .product-info.p-compensation {
+    margin-bottom: 0;
 }
 }
 
