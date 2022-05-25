@@ -13,15 +13,49 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.ms_banner a {
-    text-decoration: none;
-    color: inherit;
+/* Banner */
+.ms_banner {
+    color: white;
+    padding: 2rem;
+    position: relative;
+}
+
+.ms_banner-logo {
+    position: absolute;
+    bottom: 270px;
+    left: 50px;
+}
+
+.ms_banner-logo img {
+    width: 50%;
+}
+
+.ms_banner h2 {
+    font-size: 2.2rem;
+    padding: 15rem 0 1.5rem 0;
 }
 
 .ms_banner p {
     padding-bottom: 1.5rem;
 }
 
+.ms_banner .ms_btn.red {
+    background-color: #cd3d10;
+}
+
+.ms_banner a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ms_banner.returnal,
+.ms_banner.it-takes-two {
+    background-size: cover;
+    background-position: bottom;
+    max-width: 100%;
+}
+
+/* Cards */
 .ms_card-container img {
     width: 100%;
     padding: 0.1rem;
@@ -33,12 +67,6 @@ section.ms_cards {
 }
 
 /* Utilities */
-.ms_banner {
-    color: white;
-    padding: 2rem;
-    position: relative;
-}
-
 .ms_btn {
     color: white;
     display: inline;
@@ -47,15 +75,16 @@ section.ms_cards {
     text-decoration: none;
 }
 
-.ms_card-container.active {
+.ms_card-container.selected {
     border: 2px solid #0072ce;
     border-radius:20px;
 }
 
-.ms_products-container.active.black {
+.ms_products-container.selected.black {
     border-bottom: 2px solid #0072ce;
     color: black ;
     padding-bottom: 3.5rem;
+    opacity: calc(1);
 }
 
 /* END COMMON */
@@ -136,31 +165,9 @@ main {
     padding-top: 100px;
 }
 
-/* Returnal Banner Section*/
+/* "Returnal" Banner Section*/
 .ms_banner.returnal {
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-position: bottom;
-    max-width: 100%;
-}
-
-.ms_banner-returnal-logo {
-    position: absolute;
-    bottom: 270px;
-    left: 50px;
-}
-
-.ms_banner-returnal-logo img {
-    width: 50%;
-}
-
-.ms_banner.returnal h2 {
-    font-size: 2.5rem;
-    padding: 10rem 0 1.5rem 0;
-}
-
-.ms_banner .ms_btn.red {
-    background-color: #cd3d10;
 }
 
 /* Playstation 5 Section */
@@ -196,13 +203,12 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.ms_container-col-ps5 img{
-    width: 10%;
-    object-fit: contain;
-}
-
 .ms_btn.blue {
     background-color: #2d64e6;
+}
+
+.ms_ps-container {
+    padding-top: 0.6rem;
 }
 
 .ms_img-container {
@@ -213,10 +219,50 @@ h1 {
 .ms_products-container {
     text-align: center;  
     color: #8d8d8d; 
+    width: 100%;
+    opacity: calc(0.5);
 }
 
 .ms_products-container img {
     padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.ms_products-container .ms_product-name {
+    display: none;
+}
+
+/* "It Takes Two" Banner Section*/
+.ms_banner.it-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms_banner-logo.it-takes-two {
+    position: absolute;
+    top: 85px;
+    left: 50px;
+}
+
+/* New Releases */
+#new-release {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.ms_title-container h2 {
+    font-size: 2rem;
+}
+
+.ms_title-container {
+    padding-bottom: 0.5rem;
+}
+
+.ms_title-container h3 {
+    font-size: 1.5rem;
+}
+
+.ms_game-name {
+    padding-top: 0.5rem;
 }
 
 /* END MAIN */
@@ -231,28 +277,47 @@ h1 {
 
 /*-------------------- MEDIA QUERY --------------------*/
 
-/* MEDIUM */
+/* SMALL */
+@media screen and (min-width:576){
 
+.ms_banner h2 {
+    padding: 20rem 0 1.5rem 0;
+} 
+}
+
+/* MEDIUM */
 @media screen and (min-width:768px) {
     
 /* Playstation 5 Section */
 .ms_container-col-ps5 {
-    width: 70%;
+    width: 73%;
+}
+
+/* Related Products */
+.ms_products-container img { 
+    width: 50%;
+}
+
+.ms_products-container .ms_product-name {
+    display: block;
 }
 }
 
 /* LARGE */
-
 @media screen and (min-width:992px) {
     
 /* Header Bottom */
 .ms_header-bottom {
     padding: 0;
 }
+
+/* Playstation 5 Section */
+.ms_container-col-ps5 {
+    width: 80%;
+}
 }
 
 /* EXTRA LARGE */
-
 @media screen and (min-width:1200px) {
     
 /* Header Bottom */
@@ -260,8 +325,15 @@ h1 {
     padding-right: 45rem;
 }
     
-/* Returnal Section */
-.ms_banner-returnal-logo img {
+/* "Returnal" Banner Section */
+.ms_banner-logo img {
     width: 25%;
 }
+
+/* "It Takes Two" Banner Section*/
+.ms_banner.it-takes-two h2 {
+    /* font-size: 2.5rem; */
+    padding-right: 46rem;
 }
+}
+
