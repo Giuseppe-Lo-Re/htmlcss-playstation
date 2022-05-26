@@ -115,11 +115,6 @@ section.ms_cards {
 }
 
 /* Playstation Plus */
-#playstation-plus {
-    background-color: #bfbcbb;
-    padding: 2.5rem 0;
-}
-
 #playstation-plus h4,
 #playstation-now h4 {
     font-size: 0.92rem;
@@ -210,7 +205,7 @@ header a {
 }
 
 .ms_header-bottom-user-menu img {
-    width: 30px;
+    width: 20px;
 }
 
 .ms_header-bottom-bars i {
@@ -230,7 +225,7 @@ main {
 
 /* Playstation 5 Section */
 #playstation-5 {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 /* Heading */
@@ -288,7 +283,7 @@ h1 {
 }
 
 /* New Releases Section */
-#new-release {
+#new-releases {
     background-color: #1f1f1f;
     color: white;
 }
@@ -340,8 +335,18 @@ h1 {
     color: #737373;
 }
 
+/* Playstation VR Button  Height Compensation Media Query */
 .product-info.p-compensation {
     margin-bottom: 0;
+}
+
+/* Playstation Plus Section */
+#playstation-plus {
+    background-color: #bebcbb;
+}
+
+#playstation-plus img {
+    width: 100%;
 }
 
 /* Playstation Store Section */
@@ -357,6 +362,10 @@ h1 {
 #playstation-now {
     background-color: #151c3b;
     color: white;
+}
+
+#playstation-plus img {
+    width: 100%;
 }
 
 /* Social Media Section */
@@ -458,6 +467,7 @@ footer .ms_disclaimer a {
     width: 95%;
 }
 
+/* Playstation VR button  Height Compensation */
 .product-info.p-compensation {
     margin-bottom: 1.5rem;
 }
@@ -497,6 +507,7 @@ footer .ms_disclaimer a {
 }
 
 /* Playstation 4 Section */
+/* Playstation VR button  Height Compensation */
 .product-info.p-compensation {
     margin-bottom: 0rem;
 }
@@ -528,8 +539,23 @@ footer .ms_disclaimer a {
 
 /* "It Takes Two" Banner Section*/
 .ms_banner.it-takes-two h2 {
-    padding-top: 15rem;
+    padding-top: 12.5rem;
     padding-right: 46rem;
+}
+
+/* Playstation 4 Section */
+#playstation-4 {
+    padding: 5rem 0 4rem 0;
+}
+
+/* Playstation Plus Section */
+#playstation-plus img {
+    width: 90%;
+}
+
+/* Playstation Now Section */
+#playstation-plus img {
+    width: 85%;
 }
 
 /* Social Media Section*/
@@ -542,6 +568,7 @@ footer .ms_disclaimer a {
 @media screen and (min-width:1400px) {
 
 /* Playstation 4 Section */
+/* Playstation VR button  Height Compensation */
 .product-info.p-compensation {
     margin-bottom: 1.5rem;
 }
