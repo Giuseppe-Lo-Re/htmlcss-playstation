@@ -229,9 +229,13 @@ main {
 }
 
 /* Playstation 5 Section */
+#playstation-5 {
+    padding-bottom: 1rem;
+}
+
 /* Heading */
 #playstation-5 .ms_container.heading {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 /* Columns */
@@ -241,7 +245,7 @@ h1 {
 }
 
 .ms_container.col.ps5 h3 {
-    padding-bottom: 2rem;
+    padding-bottom: 1.3rem;
 }
 
 .ms_ps-container {
