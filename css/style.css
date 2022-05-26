@@ -82,10 +82,13 @@ section {
 
 .ms_container.heading h2 {
     font-size: 2.2rem;
+    /* padding-bottom: 1rem; */
+    padding: 0 2rem 1rem 2rem;
 }
 
 .ms_container.heading h4 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
     text-transform: uppercase;
     color: #3c8ed7;
     line-height: 0.1rem;
@@ -228,10 +231,6 @@ main {
 
 /* Playstation 5 Section */
 /* Heading */
-.ms_container.heading h2{
-    padding-bottom: 1rem;
-}
-
 #playstation-5 .ms_container.heading {
     padding-bottom: 2rem;
 }
@@ -528,10 +527,6 @@ footer .ms_disclaimer a {
 .ms_banner.it-takes-two h2 {
     padding-top: 15rem;
     padding-right: 46rem;
-}
-
-/* "It Takes Two" Banner Section */
-.ms_banner.it-takes-two h2 { 
 }
 
 /* Social Media Section*/
