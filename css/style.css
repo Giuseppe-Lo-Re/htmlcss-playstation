@@ -425,15 +425,6 @@ footer .ms_disclaimer a {
 
 /*-------------------- MEDIA QUERY --------------------*/
 
-/* SMALL */
-@media screen and (min-width:576){
-
-/* Common - Banner */
-.ms_banner h2 {
-    padding: 20rem 0 1.5rem 0;
-} 
-}
-
 /* MEDIUM */
 @media screen and (min-width:768px) {
     
@@ -525,8 +516,8 @@ footer .ms_disclaimer a {
 /* "Returnal" Banner Section */
 .ms_banner-logo {
     position: absolute;
-    bottom: 273px;
-    left: 15px;
+    bottom: 275px;
+    left: 45px;
 }
 
 .ms_banner-logo img {
@@ -541,6 +532,11 @@ footer .ms_disclaimer a {
 
 /* "It Takes Two" Banner Section */
 .ms_banner.it-takes-two h2 { 
+}
+
+/* Social Media Section*/
+.ms_padding-container {
+    padding: 0 20rem;
 }
 }
 
