@@ -97,7 +97,7 @@ section {
 
 .ms_container.heading h2 {
     font-size: 2.2rem;
-    padding: 0 2rem 1rem 0;
+    /* padding: 0 2rem 1rem 0; */
 }
 
 /* Cards */
@@ -132,6 +132,7 @@ section.ms_cards {
     font-size: 0.92rem;
     padding: 1.5rem 2rem 1.5rem 0;
 }
+
 /* Utilities */
 .ms_card-container.selected {
     border: 2px solid #0072ce;
@@ -216,6 +217,13 @@ main {
 }
 
 /* Columns Playstation 5 */
+.ms_container.heading h2{
+    padding-bottom: 1rem;
+}
+
+#playstation-5 .ms_container.heading {
+    padding-bottom: 2rem;
+}
 h1 {
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
@@ -329,6 +337,9 @@ h1 {
 }
 
 /* Playstation Store Section */
+#playstation-store .ms_card-container.heading {
+    padding: 0 3rem;
+}
 
 #playstation-store h3 {
     padding-bottom: 2rem;
@@ -347,7 +358,7 @@ h1 {
 
 /* Social Media Section*/
 #social-media h3 {
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .ms_padding-container {
@@ -467,6 +478,11 @@ footer .ms_disclaimer a {
 #playstation-now {
     padding: 0 1rem;
 }
+
+/* Social Media Section*/
+.ms_padding-container {
+    padding: 0 6rem;
+}
 }
 
 /* LARGE */
@@ -490,6 +506,11 @@ footer .ms_disclaimer a {
 /* Playstation 4 Section */
 .product-info.p-compensation {
     margin-bottom: 0rem;
+}
+
+/* Social Media Section */
+.ms_padding-container {
+    padding: 0 11rem;
 }
 }
 
@@ -520,11 +541,6 @@ footer .ms_disclaimer a {
 
 /* "It Takes Two" Banner Section */
 .ms_banner.it-takes-two h2 { 
-}
-
-/* Social Media Section*/
-.ms_padding-container {
-    padding: 0 20rem;
 }
 }
 
