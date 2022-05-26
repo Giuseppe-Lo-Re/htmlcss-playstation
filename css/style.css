@@ -86,9 +86,10 @@ section {
 
 .ms_container.heading h4 {
     font-size: 1rem;
+    text-transform: uppercase;
     color: #3c8ed7;
-    font-weight: 600;
-    line-height: 0.1rem
+    line-height: 0.1rem;
+
 }
 
 /* Cards */
