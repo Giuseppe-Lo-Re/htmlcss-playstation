@@ -70,10 +70,6 @@ section {
     padding-bottom: 1rem;
 }
 
-.ms_banner .ms_btn.red {
-    background-color: #cd3d10;
-}
-
 .ms_banner a {
     text-decoration: none;
     color: inherit;
@@ -84,16 +80,15 @@ section {
     text-align: center;
 }
 
+.ms_container.heading h2 {
+    font-size: 2.2rem;
+}
+
 .ms_container.heading h4 {
     font-size: 1rem;
     color: #3c8ed7;
     font-weight: 600;
     line-height: 0.1rem
-}
-
-.ms_container.heading h2 {
-    font-size: 2.2rem;
-    /* padding: 0 2rem 1rem 0; */
 }
 
 /* Cards */
@@ -130,6 +125,7 @@ section.ms_cards {
 }
 
 /* Utilities */
+
 .ms_card-container.selected {
     border: 2px solid #0072ce;
     border-radius:20px;
@@ -140,6 +136,29 @@ section.ms_cards {
     color: black ;
     padding-bottom: 1rem;
     opacity: calc(1);
+}
+
+/* Button Colors */
+.ms_btn.white {
+    background-color: white;
+    color: black;
+}
+
+.ms_btn.red {
+    background-color: #cd3d10;
+}
+
+.ms_btn.blue {
+    background-color: #2d64e6;
+}
+
+.ms_btn.gray {
+    background-color: #d9dadc;
+    color: #3469e5;
+}
+
+.ms_btn.darkgray {
+    background-color: #363636;
 }
 /* END COMMON */
 
@@ -189,10 +208,6 @@ header a {
     padding: 0 1rem 0 0.5rem;
 }
 
-.ms_header-bottom-user-menu .ms_btn {
-    background-color: #363636;
-}
-
 .ms_header-bottom-user-menu img {
     width: 30px;
 }
@@ -220,6 +235,7 @@ main {
 #playstation-5 .ms_container.heading {
     padding-bottom: 2rem;
 }
+
 h1 {
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
@@ -227,10 +243,6 @@ h1 {
 
 .ms_container.col.ps5 h3 {
     padding-bottom: 2rem;
-}
-
-.ms_btn.blue {
-    background-color: #2d64e6;
 }
 
 .ms_ps-container {
@@ -272,7 +284,7 @@ h1 {
     left: 50px;
 }
 
-/* New Releases */
+/* New Releases Section */
 #new-release {
     background-color: #1f1f1f;
     color: white;
@@ -327,11 +339,6 @@ h1 {
     margin-bottom: 0;
 }
 
-.ms_btn.gray {
-    background-color: #d9dadc;
-    color: #3469e5;
-}
-
 /* Playstation Store Section */
 #playstation-store .ms_card-container.heading {
     padding: 0 3rem;
@@ -347,12 +354,7 @@ h1 {
     color: white;
 }
 
-#playstation-now .ms_btn {
-    background-color: white;
-    color: black;
-}
-
-/* Social Media Section*/
+/* Social Media Section */
 #social-media h3 {
     padding: 2rem 0;
 }
