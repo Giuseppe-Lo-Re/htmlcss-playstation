@@ -125,7 +125,6 @@ section.ms_cards {
 }
 
 /* Utilities */
-
 .ms_card-container.selected {
     border: 2px solid #0072ce;
     border-radius:20px;
