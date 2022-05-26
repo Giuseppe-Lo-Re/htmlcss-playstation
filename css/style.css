@@ -17,22 +17,26 @@ section {
     padding: 2rem 0 4rem 0;
 }
 
-.ms_container.heading {
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
 .ms_container h3 {
     font-size: 1.1rem;
     color: #737373;
 }
 
-/* .heading */ 
-/* .ms_container.col.ps5 h3,
-.ms_products-container .product-info */
-
 .title-image img {
     width: 250px;
+}
+
+/* Header */
+.ms_header-bottom-left,
+.ms_header-bottom-right {
+    line-height: 70px;
+}
+
+.ms_header-bottom-nav img,
+.ms_header-bottom-user-menu
+ a img {
+    width: 10px;
+    padding-left: 0.1rem;
 }
 
 /* Banner */
@@ -79,6 +83,23 @@ section {
     background-position: top;
 }
 
+/* Heading */
+.ms_container.heading {
+    text-align: center;
+}
+
+.ms_container.heading h4 {
+    font-size: 1rem;
+    color: #3c8ed7;
+    font-weight: 600;
+    line-height: 0.1rem
+}
+
+.ms_container.heading h2 {
+    font-size: 2.2rem;
+    padding: 0 2rem 1rem 0;
+}
+
 /* Cards */
 .ms_card-container img {
     width: 100%;
@@ -94,12 +115,23 @@ section.ms_cards {
 .ms_btn {
     color: white;
     display: inline;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius:20px;
     text-decoration: none;
     font-size: 0.8rem;
 }
 
+/* Playstation Plus */
+#playstation-plus {
+    background-color: #bfbcbb;
+    padding: 2.5rem 0;
+}
+
+#playstation-plus h4,
+#playstation-now h4 {
+    font-size: 0.92rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+}
 /* Utilities */
 .ms_card-container.selected {
     border: 2px solid #0072ce;
@@ -160,18 +192,6 @@ header a {
     padding: 0 1rem 0 0.5rem;
 }
 
-.ms_header-bottom-left,
-.ms_header-bottom-right {
-    line-height: 70px;
-}
-
-.ms_header-bottom-nav img,
-.ms_header-bottom-user-menu
- a img {
-    width: 10px;
-    padding-left: 0.1rem;
-}
-
 .ms_header-bottom-user-menu .ms_btn {
     background-color: #363636;
 }
@@ -195,28 +215,12 @@ main {
     background-image: url(../img/jumbo-bg.png);
 }
 
-/* Heading */
-.ms_container.heading.ps5 {
-    padding-bottom: 2rem;
-    text-align: center;
-}
-
-.ms_container.heading.ps5 h4 {
-    font-size: 1rem;
-    color: #3c8ed7;
-    font-weight: 600;
-    line-height: 0.1rem
-}
-
-.ms_container.heading h2 {
-    font-size: 2.2rem;
-    padding: 0 2rem;
-}
-
-/* Columns PS5 */
+/* Columns Playstation 5 */
 h1 {
+    font-size: 2.2rem;
     margin-bottom: 1.5rem;
 }
+
 .ms_container.col.ps5 h3 {
     padding-bottom: 2rem;
 }
@@ -289,13 +293,10 @@ h1 {
 
 /* Playstation 4 Section */
 #playstation-4 {
-    padding: 5rem 0 7rem 0;
-}
-.ms_container.heading.ps4 {
-    text-align: center;
+    padding: 5rem 0 6rem 0;
 }
 
-.ms_container.heading.ps4 .registered {
+.ms_container.heading.registered {
     font-size: 1.1rem;
     vertical-align: super;
 }
@@ -315,26 +316,11 @@ h1 {
 
 .ms_products-container .product-info {
     padding: 1rem 0 1.5rem 0;
+    color: #737373;
 }
 
 .product-info.p-compensation {
     margin-bottom: 0;
-}
-
-/* Playstation Plus Section */
-#playstation-plus {
-    background-color: #bfbcbb;
-    padding: 2.5rem 0;
-}
-#playstation-plus
-.ms-container.play {
-    padding: 3rem 1rem;
-}
-
-#playstation-plus h3,
-#playstation-now h3 {
-    font-size: 0.92rem;
-    padding: 1.5rem 2rem 1.5rem 0;
 }
 
 .ms_btn.gray {
@@ -343,17 +329,15 @@ h1 {
 }
 
 /* Playstation Store Section */
+
 #playstation-store h3 {
     padding-bottom: 2rem;
 }
-
 
 /* Playstation Now Section */
 #playstation-now {
     background-color: #151c3b;
     color: white;
-    padding: 3rem 0;
-
 }
 
 #playstation-now .ms_btn {
@@ -362,10 +346,6 @@ h1 {
 }
 
 /* Social Media Section*/
-#social-media {
-    padding: 3.5rem 0;
-}
-
 #social-media h3 {
     padding-bottom: 2rem;
 }
@@ -373,7 +353,6 @@ h1 {
 .ms_padding-container {
     padding: 0;
 }
-
 /* END MAIN */
 
 
@@ -438,6 +417,7 @@ footer .ms_disclaimer a {
 /* SMALL */
 @media screen and (min-width:576){
 
+/* Common - Banner */
 .ms_banner h2 {
     padding: 20rem 0 1.5rem 0;
 } 
@@ -524,8 +504,8 @@ footer .ms_disclaimer a {
 /* "Returnal" Banner Section */
 .ms_banner-logo {
     position: absolute;
-    bottom: 275px;
-    left: 45px;
+    bottom: 273px;
+    left: 15px;
 }
 
 .ms_banner-logo img {
