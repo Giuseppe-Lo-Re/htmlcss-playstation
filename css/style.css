@@ -8,10 +8,6 @@ ul {
     padding: 0;
 }
 
-a:hover {
-    color: inherit;
-}
-
 /* COMMON */
 body {
     font-family: Arial, sans-serif;
@@ -26,12 +22,14 @@ section {
     padding-bottom: 1rem;
 }
 
-.ms_container.heading h3,
-.ms_container.col.ps5 h3,
-.ms_products-container .product-info {
+.ms_container h3 {
     font-size: 1.1rem;
     color: #737373;
 }
+
+/* .heading */ 
+/* .ms_container.col.ps5 h3,
+.ms_products-container .product-info */
 
 .title-image img {
     width: 250px;
@@ -114,7 +112,6 @@ section.ms_cards {
     padding-bottom: 1rem;
     opacity: calc(1);
 }
-
 /* END COMMON */
 
 /* HEADER */
@@ -307,10 +304,6 @@ h1 {
     padding-top: 0.5rem;
 }
 
-.ms_products-container .product-info.p-compensation {
-    margin-bottom:0;
-}
-
 #playstation-4 .ms_products-container h3 {
     font-size: 2rem ;
 }
@@ -322,6 +315,10 @@ h1 {
 
 .ms_products-container .product-info {
     padding: 1rem 0 1.5rem 0;
+}
+
+.product-info.p-compensation {
+    margin-bottom: 0;
 }
 
 /* Playstation Plus Section */
@@ -477,9 +474,9 @@ footer .ms_disclaimer a {
     width: 95%;
 }
 
-/* .ms_products-container .product-info.p-compensation {
-    margin-bottom: 1.9rem;
-} */
+.product-info.p-compensation {
+    margin-bottom: 1.5rem;
+}
 
 /* Playstation Plus Section */
 .ms_ps-container {
@@ -508,6 +505,11 @@ footer .ms_disclaimer a {
 /* Related Products */
 #playstation-5 .ms_products-container.selected.black {
     padding-bottom: 2rem;
+}
+
+/* Playstation 4 Section */
+.product-info.p-compensation {
+    margin-bottom: 0rem;
 }
 }
 
@@ -540,15 +542,17 @@ footer .ms_disclaimer a {
 .ms_banner.it-takes-two h2 { 
 }
 
-/* Playstation 4 Section */
-.ms_products-container .product-info.p-compensation {
-    margin-bottom: 0;
-}
-
 /* Social Media Section*/
 .ms_padding-container {
     padding: 0 20rem;
 }
-
 }
 
+/* EXTRA EXTRA LARGE */
+@media screen and (min-width:1400px) {
+
+/* Playstation 4 Section */
+.product-info.p-compensation {
+    margin-bottom: 1.5rem;
+}
+}
