@@ -513,8 +513,8 @@ footer .ms_disclaimer a {
     padding-right: 45rem;
 }
     
-/* Banner Section */
-.ms_banner-logo {
+/* "Returnal" Banner Section */
+.ms_banner-logo.returnal {
     position: absolute;
     bottom: 275px;
     left: 45px;
