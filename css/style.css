@@ -373,6 +373,10 @@ h1 {
     padding-bottom: 2rem;
 }
 
+.ms_padding-container {
+    padding: 0;
+}
+
 /* END MAIN */
 
 
@@ -540,5 +544,11 @@ footer .ms_disclaimer a {
 .ms_products-container .product-info.p-compensation {
     margin-bottom: 0;
 }
+
+/* Social Media Section*/
+.ms_padding-container {
+    padding: 0 20rem;
+}
+
 }
 
