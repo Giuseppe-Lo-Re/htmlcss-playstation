@@ -17,10 +17,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
+section {
+    padding: 2rem 0 4rem 0;
+}
+
+.ms_container.heading {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .ms_container.heading h3,
-.ms_container.col-ps5 h3,
+.ms_container.col.ps5 h3,
 .ms_products-container .product-info {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #737373;
 }
 
@@ -31,14 +40,14 @@ body {
 /* Banner */
 .ms_banner {
     color: white;
-    padding: 2rem;
+    padding: 3rem 0;
     position: relative;
 }
 
 .ms_banner-logo {
     position: absolute;
     bottom: 270px;
-    left: 50px;
+    left: 30px;
 }
 
 .ms_banner-logo img {
@@ -51,7 +60,8 @@ body {
 }
 
 .ms_banner p {
-    padding-bottom: 1.5rem;
+    font-size: 1.05rem;
+    padding-bottom: 1rem;
 }
 
 .ms_banner .ms_btn.red {
@@ -68,6 +78,7 @@ body {
     background-size: cover;
     background-position: bottom;
     max-width: 100%;
+    background-position: top;
 }
 
 /* Cards */
@@ -78,7 +89,7 @@ body {
 }
 
 section.ms_cards {
-    padding: 2rem 0;
+    padding: 1.5rem 0 4rem;
 }
 
 /* Button */
@@ -100,7 +111,7 @@ section.ms_cards {
 #playstation-5 .ms_products-container.selected.black {
     border-bottom: 2px solid #0072ce;
     color: black ;
-    padding-bottom: 3.5rem;
+    padding-bottom: 1rem;
     opacity: calc(1);
 }
 
@@ -187,15 +198,9 @@ main {
     background-image: url(../img/jumbo-bg.png);
 }
 
-/* Playstation 5 Section */
-#playstation-5,
-#playstation-store,
-#playstation-now {
-    padding: 2rem 0;
-}
 /* Heading */
 .ms_container.heading.ps5 {
-    padding: 5rem 0 2rem 0;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
@@ -208,7 +213,7 @@ main {
 
 .ms_container.heading h2 {
     font-size: 2.2rem;
-    padding-bottom: 1rem;
+    padding: 0 2rem;
 }
 
 /* Columns PS5 */
@@ -235,12 +240,12 @@ h1 {
 #playstation-5 .ms_products-container {
     text-align: center; 
     width: 100%;
-    opacity: calc(0.5);
+    opacity: calc(0.8);
 }
 
 #playstation-5 .ms_products-container img {
     padding-bottom: 0.5rem;
-    width: 100%;
+    width: 90%;
 }
 
 .ms_products-container .ms_product-name {
@@ -270,6 +275,7 @@ h1 {
 
 .ms_title-container h2 {
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .ms_title-container {
@@ -292,9 +298,8 @@ h1 {
     text-align: center;
 }
 
-.ms_container.heading.ps4 .trademark {
-    display: inline-block;
-    font-size: 1rem;
+.ms_container.heading.ps4 .registered {
+    font-size: 1.1rem;
     vertical-align: super;
 }
 
@@ -312,17 +317,17 @@ h1 {
 
 #playstation-4 .ms_products-container img {
     padding-top: 2rem;
-    width: 100%;
+    width: 90%;
 }
 
 .ms_products-container .product-info {
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 0 1.5rem 0;
 }
 
 /* Playstation Plus Section */
 #playstation-plus {
     background-color: #bfbcbb;
-    padding: 3rem 0;
+    padding: 2.5rem 0;
 }
 #playstation-plus
 .ms-container.play {
@@ -331,7 +336,7 @@ h1 {
 
 #playstation-plus h3,
 #playstation-now h3 {
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     padding: 1.5rem 2rem 1.5rem 0;
 }
 
@@ -379,11 +384,6 @@ footer {
     font-size: 0.8rem;
 }
 
-footer a {
-    text-decoration: none;
-    color: inherit;
-}
-
 footer .ms_logo-container {
     padding: 2rem 0;
 }
@@ -411,9 +411,22 @@ footer ul {
     padding-bottom: 0.5rem;
 }
 
+footer  ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer .ms_logo-bottom-container {
     width: 100px;
     padding: 3rem 0 0.5rem 0;
+}
+
+footer .ms_disclaimer {
+    font-size: 0.68rem;
+}
+
+footer .ms_disclaimer a {
+    color: inherit;
 }
 
 /* END FOOTER */
@@ -442,6 +455,10 @@ footer .ms_logo-bottom-container {
     width: 50%;
 }
 
+#playstation-5 .ms_products-container.selected.black {
+    padding-bottom: 3rem;
+}
+
 .ms_products-container .ms_product-name {
     display: block;
 }
@@ -456,9 +473,9 @@ footer .ms_logo-bottom-container {
     width: 95%;
 }
 
-.ms_products-container .product-info.p-compensation {
+/* .ms_products-container .product-info.p-compensation {
     margin-bottom: 1.9rem;
-}
+} */
 
 /* Playstation Plus Section */
 .ms_ps-container {
@@ -483,6 +500,11 @@ footer .ms_logo-bottom-container {
 .ms_container.col.ps5 {
     width: 80%;
 }
+
+/* Related Products */
+#playstation-5 .ms_products-container.selected.black {
+    padding-bottom: 2rem;
+}
 }
 
 /* EXTRA LARGE */
@@ -494,8 +516,14 @@ footer .ms_logo-bottom-container {
 }
     
 /* "Returnal" Banner Section */
+.ms_banner-logo {
+    position: absolute;
+    bottom: 275px;
+    left: 45px;
+}
+
 .ms_banner-logo img {
-    width: 25%;
+    width: 23%;
 }
 
 /* "It Takes Two" Banner Section*/
@@ -505,17 +533,12 @@ footer .ms_logo-bottom-container {
 }
 
 /* "It Takes Two" Banner Section */
-.ms_banner.it-takes-two h2 {
-    
+.ms_banner.it-takes-two h2 { 
 }
+
 /* Playstation 4 Section */
 .ms_products-container .product-info.p-compensation {
     margin-bottom: 0;
-}
-
-/* Playstation Plus Section */
-#playstation-plus img {
-    width: 85%;
 }
 }
 
