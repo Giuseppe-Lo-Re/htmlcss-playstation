@@ -336,7 +336,7 @@ h1 {
 }
 
 /* Playstation VR Button  Height Compensation Media Query */
-.product-info.p-compensation {
+.product-info.h-compensation {
     margin-bottom: 0;
 }
 
@@ -468,7 +468,7 @@ footer .ms_disclaimer a {
 }
 
 /* Playstation VR button  Height Compensation */
-.product-info.p-compensation {
+.product-info.h-compensation {
     margin-bottom: 1.5rem;
 }
 
@@ -508,7 +508,7 @@ footer .ms_disclaimer a {
 
 /* Playstation 4 Section */
 /* Playstation VR button  Height Compensation */
-.product-info.p-compensation {
+.product-info.h-compensation {
     margin-bottom: 0rem;
 }
 
@@ -569,7 +569,7 @@ footer .ms_disclaimer a {
 
 /* Playstation 4 Section */
 /* Playstation VR button  Height Compensation */
-.product-info.p-compensation {
+.product-info.h-compensation {
     margin-bottom: 1.5rem;
 }
 }
