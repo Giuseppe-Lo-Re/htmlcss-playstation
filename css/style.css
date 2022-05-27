@@ -436,140 +436,140 @@ footer .ms_disclaimer a {
 
 /*-------------------- MEDIA QUERY --------------------*/
 
-/* MEDIUM */
-@media screen and (min-width:768px) {
-    
-/* Playstation 5 Section */
-.ms_container.col.ps5 {
-    width: 73%;
-}
+    /* MEDIUM */
+    @media screen and (min-width:768px) {
+        
+    /* Playstation 5 Section */
+    .ms_container.col.ps5 {
+        width: 73%;
+    }
 
-/* Related Products */
-#playstation-5 .ms_products-container img { 
-    width: 50%;
-}
+    /* Related Products */
+    #playstation-5 .ms_products-container img { 
+        width: 50%;
+    }
 
-#playstation-5 .ms_products-container.selected.black {
-    padding-bottom: 3rem;
-}
+    #playstation-5 .ms_products-container.selected.black {
+        padding-bottom: 3rem;
+    }
 
-.ms_products-container .ms_product-name {
-    display: block;
-}
+    .ms_products-container .ms_product-name {
+        display: block;
+    }
 
-/* "It Takes Two" Banner Section */
-.ms_banner.it-takes-two h2 {
-    padding-top: 20rem;
-}
+    /* "It Takes Two" Banner Section */
+    .ms_banner.it-takes-two h2 {
+        padding-top: 20rem;
+    }
 
-/* Playstation 4 Section */
-#playstation-4 .ms_products-container img {
-    width: 95%;
-}
+    /* Playstation 4 Section */
+    #playstation-4 .ms_products-container img {
+        width: 95%;
+    }
 
-/* Playstation VR button  Height Compensation */
-.product-info.h-compensation {
-    margin-bottom: 1.5rem;
-}
+    /* Playstation VR button  Height Compensation */
+    .product-info.h-compensation {
+        margin-bottom: 1.5rem;
+    }
 
-/* Playstation Plus Section */
-.ms_ps-container {
-    padding-top: 0;
-}
+    /* Playstation Plus Section */
+    .ms_ps-container {
+        padding-top: 0;
+    }
 
-#playstation-plus,
-#playstation-now {
-    padding: 0 1rem;
-}
+    #playstation-plus,
+    #playstation-now {
+        padding: 0 1rem;
+    }
 
-/* Social Media Section*/
-.ms_padding-container {
-    padding: 0 6rem;
-}
-}
+    /* Social Media Section*/
+    .ms_padding-container {
+        padding: 0 6rem;
+    }
+    }
 
-/* LARGE */
-@media screen and (min-width:992px) {
-    
-/* Header Bottom */
-.ms_header-bottom {
-    padding: 0;
-}
+    /* LARGE */
+    @media screen and (min-width:992px) {
+        
+    /* Header Bottom */
+    .ms_header-bottom {
+        padding: 0;
+    }
 
-/* Playstation 5 Section */
-.ms_container.col.ps5 {
-    width: 80%;
-}
+    /* Playstation 5 Section */
+    .ms_container.col.ps5 {
+        width: 80%;
+    }
 
-/* Related Products */
-#playstation-5 .ms_products-container.selected.black {
-    padding-bottom: 2rem;
-}
+    /* Related Products */
+    #playstation-5 .ms_products-container.selected.black {
+        padding-bottom: 2rem;
+    }
 
-/* Playstation 4 Section */
-/* Playstation VR button  Height Compensation */
-.product-info.h-compensation {
-    margin-bottom: 0rem;
-}
+    /* Playstation 4 Section */
+    /* Playstation VR button  Height Compensation */
+    .product-info.h-compensation {
+        margin-bottom: 0rem;
+    }
 
-/* Social Media Section */
-.ms_padding-container {
-    padding: 0 11rem;
-}
-}
+    /* Social Media Section */
+    .ms_padding-container {
+        padding: 0 11rem;
+    }
+    }
 
-/* EXTRA LARGE */
-@media screen and (min-width:1200px) {
-    
-/* Header Bottom */
-.ms_banner p {
-    padding-right: 45rem;
-}
-    
-/* "Returnal" Banner Section */
-.ms_banner-logo.returnal {
-    position: absolute;
-    bottom: 275px;
-    left: 45px;
-}
+    /* EXTRA LARGE */
+    @media screen and (min-width:1200px) {
+        
+    /* Header Bottom */
+    .ms_banner p {
+        padding-right: 45rem;
+    }
+        
+    /* "Returnal" Banner Section */
+    .ms_banner-logo.returnal {
+        position: absolute;
+        bottom: 275px;
+        left: 45px;
+    }
 
-.ms_banner-logo img {
-    width: 23%;
-}
+    .ms_banner-logo img {
+        width: 23%;
+    }
 
-/* "It Takes Two" Banner Section*/
-.ms_banner.it-takes-two h2 {
-    padding-top: 12.5rem;
-    padding-right: 46rem;
-}
+    /* "It Takes Two" Banner Section*/
+    .ms_banner.it-takes-two h2 {
+        padding-top: 12.5rem;
+        padding-right: 46rem;
+    }
 
-/* Playstation 4 Section */
-#playstation-4 {
-    padding: 5rem 0 4rem 0;
-}
+    /* Playstation 4 Section */
+    #playstation-4 {
+        padding: 5rem 0 4rem 0;
+    }
 
-/* Playstation Plus Section */
-#playstation-plus img {
-    width: 90%;
-}
+    /* Playstation Plus Section */
+    #playstation-plus img {
+        width: 90%;
+    }
 
-/* Playstation Now Section */
-#playstation-plus img {
-    width: 85%;
-}
+    /* Playstation Now Section */
+    #playstation-plus img {
+        width: 85%;
+    }
 
-/* Social Media Section*/
-.ms_padding-container {
-    padding: 0 20rem;
-}
-}
+    /* Social Media Section*/
+    .ms_padding-container {
+        padding: 0 20rem;
+    }
+    }
 
-/* EXTRA EXTRA LARGE */
-@media screen and (min-width:1400px) {
+    /* EXTRA EXTRA LARGE */
+    @media screen and (min-width:1400px) {
 
-/* Playstation 4 Section */
-/* Playstation VR button  Height Compensation */
-.product-info.h-compensation {
-    margin-bottom: 1.5rem;
-}
-}
+    /* Playstation 4 Section */
+    /* Playstation VR button  Height Compensation */
+    .product-info.h-compensation {
+        margin-bottom: 1.5rem;
+    }
+    }
