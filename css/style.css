@@ -114,26 +114,6 @@ section.ms_cards {
     font-size: 0.8rem;
 }
 
-/* Playstation Plus */
-#playstation-plus h4,
-#playstation-now h4 {
-    font-size: 0.92rem;
-    padding: 1.5rem 2rem 1.5rem 0;
-}
-
-/* Utilities */
-.ms_card-container.selected {
-    border: 2px solid #0072ce;
-    border-radius:20px;
-}
-
-#playstation-5 .ms_products-container.selected.black {
-    border-bottom: 2px solid #0072ce;
-    color: black ;
-    padding-bottom: 1rem;
-    opacity: calc(1);
-}
-
 /* Buttons Colors */
 .ms_btn.white {
     background-color: white;
@@ -155,6 +135,26 @@ section.ms_cards {
 
 .ms_btn.darkgray {
     background-color: #363636;
+}
+
+/* Playstation Plus */
+#playstation-plus h4,
+#playstation-now h4 {
+    font-size: 0.92rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+}
+
+/* Utilities */
+.ms_card-container.selected {
+    border: 2px solid #0072ce;
+    border-radius:20px;
+}
+
+#playstation-5 .ms_products-container.selected.black {
+    border-bottom: 2px solid #0072ce;
+    color: black ;
+    padding-bottom: 1rem;
+    opacity: calc(1);
 }
 /* END COMMON */
 
